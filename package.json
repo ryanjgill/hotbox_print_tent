@@ -1,0 +1,30 @@
+{
+  "name": "hotbox_print_tent",
+  "version": "1.0.0",
+  "description": "Monitor the temperature of a 3D-printer enclosure.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://ryanjgill@github.com/ryanjgill/hotbox_print_tent.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryanjgill/hotbox_print_tent/issues"
+  },
+  "homepage": "https://github.com/ryanjgill/hotbox_print_tent#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "ip": "^1.1.5",
+    "moment": "^2.24.0",
+    "rethinkdbdash": "^2.3.31",
+    "socket.io": "^2.3.0"
+  }
+}
